@@ -1,0 +1,9 @@
+<header>第一行</header>
+<nav>导航</nav>
+<article>
+	<section>
+	节
+	</section>
+</article>
+<aside>侧边栏</aside>
+<footer>脚部</footer>
