@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./jquery-3.7.1.js"></script>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+        }
+        div{
+            width:100px;
+            height:100px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button class="btn">按钮</button>
+    </div>
+    <script>
+        $(".btn").click(function(e){
+            console.log("btn",e.currentTarget)
+            console.log("btn",e.target)
+        })
+        $(".container").click(function(e){
+            console.log("container",e.currentTarget)
+            console.log("container",e.target)
+        })
+        
+    </script>
+</body>
+</html>

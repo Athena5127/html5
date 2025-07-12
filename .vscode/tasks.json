@@ -4,21 +4,19 @@
     {
       "label": "Open in Obsidian",
       "type": "shell",
-      "command": "powershell",
-      "args": [
-        "-ExecutionPolicy",
-        "Bypass",
-        "-File",
-        "${workspaceFolder}/open-in-obsidian.ps1",
-        "${relativeFile}"
-      ],
+      "command": "start \"\" \"obsidian://advanced-uri?filepath=${filePathEncoded}&vault=HTML5\"",
       "problemMatcher": [],
       "presentation": {
-        "reveal": "always"
+        "reveal": "never"
       },
       "group": {
         "kind": "build",
         "isDefault": true
+      },
+      "options": {
+        "shell": {
+          "executable": "cmd.exe"
+        }
       }
     }
   ]
