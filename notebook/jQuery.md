@@ -31,10 +31,10 @@ $(label Selector).attr(className)获取属性
 $(label Selector).attr({})修改属性
 $(label Selector).wrap()对所有匹配的标签进行分别包裹
 $(label Selector).unwrap()对父级标签进行删除并保留自身所在位置
-$(label Selector).wrapAll()对所有匹配的标签进行总体包裹
+$(label Selector).wrapAll()对所有匹配的标签进行整体包裹
 $(label Selector).wrapInner()对标签内容用文档标签包裹
-$(label Selector).append()在标签内的头部插入标签或内容
-$(label Selector).prepend()在标签内的尾部插入标签或内容
+$(label Selector).append()在标签内的尾部插入标签或内容
+$(label Selector).prepend()在标签内的头部插入标签或内容
 $(label Selector).after()在标签的后面插入标签
 $(label Selector).before()在标签的前面插入标签
 $(label Selector).empty()删除所有子节点
@@ -44,7 +44,7 @@ $(label Selector).replaceWith()用提供内容替换匹配元素，于replaceAll
 
 CSS操作
 $(label Selector).css()
-$(label Selector).css("")
+$(label Selector).css("","")
 $(label Selector).css({})
 $(label Selector).width()
 $(label Selector).width("")
@@ -115,7 +115,7 @@ $(label Selector).click(function(e){
 遍历
 $(label Selector).map(function(index,element){})
 $(label Selector).each(function(index,element){})
-map()返回原始数组，each返沪新的数组
+map()返回原始数组，each()返回新的数组
 $(label Selector).get(index).innerHtml("")
 
 树遍历
